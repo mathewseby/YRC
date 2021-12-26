@@ -1,7 +1,9 @@
 export const MENU = [
     'HOME',
     'ABOUT US',
-    'TEAM',
+    'SUPPORT',
+    'Q&A',
+    'CREW',
     'GALLERY'
 ];
     

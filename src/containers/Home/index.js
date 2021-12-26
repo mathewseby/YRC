@@ -4,18 +4,21 @@ import Bg from "../../assets/images/first.jpeg";
 
 
 const useStyles = makeStyles((theme) => ({
-    bg: {
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-        backgroundSize: "cover",
-    }
+  root: {
+      position: "relative",
+      backgroundColor: "#0f0d12",
+      backgroundImage: `url(${Bg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      height: "100%",
+    },
   }));
 
 const Home = () => {
   const classes = useStyles();
     return (
-        <div>
-            <img src={Bg} alt="yrc logo" className={classes.bg}/>
+        <div className={classes.root}>
+            Test
         </div>
     )
 }
