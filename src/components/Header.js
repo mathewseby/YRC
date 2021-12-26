@@ -9,7 +9,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 
 const useStyles = makeStyles((theme) => ({
   header: {
-    backgroundColor: "rgb(31, 86, 143)",
+    backgroundColor: "rgb(8 8 8)",
     height: "35px",
     display: "flex",
   },
