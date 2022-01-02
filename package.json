@@ -1,6 +1,6 @@
 {
-  "homepage": "https://mathewseby.github.io/YRC/",
   "name": "yrc",
+  "homepage": "https://mathewseby.github.io/YRC",
   "version": "0.1.0",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
