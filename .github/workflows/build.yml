@@ -29,5 +29,5 @@ jobs:
       - name: deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          deploy_key: gh-pages
+          branch: gh-pages
           publish_dir: build
